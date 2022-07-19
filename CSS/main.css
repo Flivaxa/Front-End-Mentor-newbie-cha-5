@@ -97,7 +97,7 @@ body {
         max-height: 342px;
     }
     .container main .content {
-        padding: 50px 100px 0px 40px;
+        padding: 50px 100px 50px 40px;
         text-align: left;
         border-radius: 8px 0 0 8px;
     }
