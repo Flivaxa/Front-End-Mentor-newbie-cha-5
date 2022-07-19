@@ -93,13 +93,19 @@ body {
 @media (min-width: 992px) {
     .container main {
         display: flex;
-        max-width: 920px;
-        max-height: 342px;
+        /* max-width: 920px; 
+        max-height: 342px; */
     }
     .container main .content {
-        padding: 50px 100px 50px 40px;
+        padding: 50px 150px 50px 40px;
         text-align: left;
         border-radius: 8px 0 0 8px;
+    }
+    .container main .content h1 {
+        font-size: 2rem;
+    }
+    .container main .content p {
+        font-size: 1rem;
     }
     .container main img.mobile {
         display: none;
@@ -114,6 +120,7 @@ body {
         display: flex;
         justify-content: space-between;
         padding-right: 50px;
+        padding-top: 50px;
     }
 }
 .container main .content .info > div  {
